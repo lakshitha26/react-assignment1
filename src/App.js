@@ -1,24 +1,20 @@
-import logo from './logo.svg';
+import image from './lion.jpg'
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      <center>
+      <div className='card-body'>
+              <img className="image" src={image}/>
+              <h2 className="heading">LION</h2>
+              <div className="content">Lions differ from the other members of the large cat genus, Panthera—tigers, leopards,and jaguars.
+              African lions have been admired throughout history for as symbols of courage and strength.</div >
+              <div className="footer">SHARE ME</div>
+              <div className="foot">LEARN MORE</div>
+              </div>
+          </center>
+          </div>
   );
 }
 

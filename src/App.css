@@ -1,38 +1,43 @@
-.App {
-  text-align: center;
+.App{
+  width: 600px;
+  height: 350px;
+  border: 1px ;
+  padding: 50px;
+  border-radius: 10px;
+  margin: 20px;
+  background-color:rgb(237, 235, 235);
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.card-body{
+  width: 350px;
+  height: 360px;
+  border: 1px;
+  background-color:white;
+  border-radius: 10px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.image{
+  width: 350px;
+  height: 160px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.heading{
+  text-align: left;
+  padding-left: 15px;
 }
-
-.App-link {
-  color: #61dafb;
+.content{
+  font-family:
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.footer{
+  text-align: left;
+  color: deepskyblue;
+  display:inline-block;
+  /* font-weight: 800; */
+  font-size: large;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.foot{
+  padding: 25px;
+  color: rgb(2, 187, 249);
+  display:inline-block;
+  /* font-weight: 800; */
+  font-size: large;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
