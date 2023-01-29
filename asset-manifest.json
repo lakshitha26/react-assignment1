@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/react-assignment1/static/css/main.ce532a7c.css",
+    "main.js": "/react-assignment1/static/js/main.ca736c57.js",
+    "static/media/lion.jpg": "/react-assignment1/static/media/lion.8625241e5ec31bf769b8.jpg",
+    "index.html": "/react-assignment1/index.html",
+    "main.ce532a7c.css.map": "/react-assignment1/static/css/main.ce532a7c.css.map",
+    "main.ca736c57.js.map": "/react-assignment1/static/js/main.ca736c57.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ce532a7c.css",
+    "static/js/main.ca736c57.js"
+  ]
+}
